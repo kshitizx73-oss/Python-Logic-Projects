@@ -34,6 +34,12 @@ while True:
     else:
         print("You Lose , Try Again .. ")
 
-## try again code
+## Try again code 
+
+play_again = input("Play again? (y/n): ").lower()
+    if play_again != "y":
+        print("Thanks for playing 👋")
+        break
+
 
 
